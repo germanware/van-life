@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  background-color: rgb(196, 196, 196);
+}
+
+.page-size {
+  width: 548.15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-element {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  padding: 0 15px;
+  height: 111.62px;
+  align-items: center;
+  background-color: #fff7ed;
+}
+
+.navbar-element ul {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  list-style-type: none;
+  align-items: center;
+  color: #4d4d4d;
+  font-weight: 600;
+}
+
+.navbar-element a {
+  text-decoration: none;
+}
+
+.navbar-element a:any-link {
+  color: inherit;
+}
+
+.home-element {
+  height: 386.7px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  max-width: 494.33px;
+}
+
+.info h1 {
+  margin-bottom: 23px;
+  margin-top: 0;
+}
+
+.info p {
+  margin-bottom: 52px;
+  margin-top: 0;
+}
+
+.callActionBtn {
+  margin: 0;
+  width: 100%;
+  height: 49.83px;
+  align-self: baseline;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8c38;
+  cursor: pointer;
+}
+
+.about-element {
+  background-color: #fff7ed;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-element h1 {
+  max-width: 494.33px;
+  margin-left: 28px;
+  margin-top: 48px;
+  font-size: 28px;
+}
+
+.about-element p {
+  margin: 0 0 0 28px;
+}
+
+.bottom-box {
+  background-color: #ffcc8d;
+  height: 198px;
+  width: 494px;
+  padding: 32px 38px;
+  border-radius: 5px;
+  margin: 55px 0 55px 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-box h2 {
+  margin: 0;
+}
+
+.bottom-box button {
+  height: 49px;
+  width: 174px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #161616;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.footer-element {
+  height: 74.75px;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  margin-left: 50%;
+}
